@@ -8,15 +8,16 @@
         let dimes = 98;
         let nickels = 66;
         let pennies = 57;
+        document.write(`${quarters} quarters, ${dimes} dimes, ${nickels} nickels, and ${pennies} pennies.`)
+        quarters = quarters*0.25;
+        dimes = dimes*0.1;
+        nickels = nickels*0.05;
+        pennies = pennies*0.01;
+        total = quarters+dimes+nickels+pennies;
+        document.write("$"+total+" in the SAFE.")
     </script>
-    <div></div>
-        # <button type="button" onclick='document.write()' >look at type of change in safe</button>
-        <script>  
-          quarters = quarters*0.25;
-          dimes = dimes*0.1;
-          nickels = nickels*0.05;
-          pennies = pennies*0.01;
-          total = quarters+dimes+nickels+pennies;
-        </script>
-        <button type="button" onclick='document.write("$"+total+" in the SAFE.")'>look at total money in safe</button>
+    <div></div> <!-- 
+        <button type="button" onclick='' >look at type of change in safe</button>
+        <button type="button" onclick=''>look at total money in safe</button>
+         -->
 </body>
