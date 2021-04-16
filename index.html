@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <body>
-    <h1>god</h1>
-    <p1>this is cool website that is going to host javascript stuff</p1>
+    <div></div>
+    <h1>my website</h1>
+    <p1>below are some expirements</p1>
     <script>
         let quarters = 25;
         let dimes = 98;
         let nickels = 66;
-        quarters = quarters*0.25;
-        dimes = dimes*0.1;
-        nickels = nickels*0.05;
-        total = quarters+dimes+nickels;
-        // window.print(total+' dollars in the SAFE.');
+        let pennies = 57;
     </script>
-    <div>
-        <button type="button" onclick='window.print(total+" dollars in the SAFE.")'>this should work</button>
-    </div>
+    <div></div>
+        # <button type="button" onclick='document.write()' >look at type of change in safe</button>
+        <script>  
+          quarters = quarters*0.25;
+          dimes = dimes*0.1;
+          nickels = nickels*0.05;
+          pennies = pennies*0.01;
+          total = quarters+dimes+nickels+pennies;
+        </script>
+        <button type="button" onclick='document.write("$"+total+" in the SAFE.")'>look at total money in safe</button>
 </body>
